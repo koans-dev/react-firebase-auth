@@ -2,12 +2,13 @@ import React from "react";
 import Header from "./Header";
 
 const Dashboard = () => {
+
   return (
     <div>
       <Header />
       <div className="flex min-h-screen">
-        <div className="w-64 bg-gray-100 ">
-          <div className="flex items-center">
+        <div className="w-64 bg-white divide-y divide-gray-100 hover:divide-gray-200">
+          <div className="flex items-center  ">
             <img
               className="h-12 rounded-full"
               src="https://img.icons8.com/color/48/000000/user-male.png"
